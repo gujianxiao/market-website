@@ -1,0 +1,515 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://v3.bootcss.com/favicon.ico">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="model_files/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="model_files/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="model_files/theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="model_files/ie-emulation-modes-warning.js"></script>
+<title>乌衣巷</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="model_files/jquery.js"></script>
+ <script src="model_files/jquery.js"></script>
+    <script src="model_files/bootstrap.js"></script>
+    <script src="model_files/docs.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="model_files/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts -->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/sticky-navigation.css" />
+<link href="css/demo.css" rel="stylesheet" type="text/css" />
+<script>
+$(function() {
+
+	// grab the initial top offset of the navigation 
+	var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+	
+	// our function that decides weather the navigation bar should have "fixed" css position or not.
+	var sticky_navigation = function(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+		if (scroll_top > sticky_navigation_offset_top) { 
+			$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+		} else {
+			$('#sticky_navigation').css({ 'position': 'relative' }); 
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+	
+	// NOT required:
+	// for this demo disable all links that point to "#"
+	$('a[href="#"]').click(function(event){ 
+		event.preventDefault(); 
+	});
+	
+});
+</script>
+
+</head>
+<body>
+	<!-- Header Part Starts Here -->
+<div class="header">
+	<div class="container">
+	<div id="demo_top_wrapper">
+	<div id="sticky_navigation_wrapper">
+		<div id="sticky_navigation">
+			<div class="demo_container navigation-bar">
+				<div class="navigation">
+					<div class="logo"><a href="index.html">MIRMAID
+</a></div>
+					<span class="menu"></span>
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".navig" ).slideToggle( "slow", function() {
+						    // Animation complete.
+						  });
+						});
+					</script>
+					<div class="navig">
+						<ul>
+							<li><a href="style.html">Style</a></li>
+							<li><a href="collacation.html">Collacation</a></li>
+							<li><a href="recommendation.html">Recommendation</a></li>
+							<li><a href="#">News</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="navigation-right">
+					<ul class="user">
+						<li>
+							<span></span><a href="login.html">Log In</a>
+						</li>
+						<li>
+							<span class="bascket"></span><a href="bascket.html">Basket(0)</a>
+						</li>
+						<li>
+							<button class="search"></button>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<div class="serch">
+								<span>
+									<input type="text" placeholder="Search" required>
+									<input type="submit" value="" />
+								</span>
+				</div>
+				<script>
+					$( "button.search" ).click(function() {
+					  $( ".serch" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<div class="container">
+<section id="main">
+	<div class="content">
+		<!-- Banner Starts Here --->
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+          <li class="" data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li class="" data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li class="active" data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li class="" data-target="#carousel-example-generic" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+                   <div class="item">
+            <img data-holder-rendered="true" src="images/吴彦祖2.jpg" alt="Third slide [1140x500]">
+             <div class="container" align="left" >
+             <div class="carousel-caption" align="left">
+              <h1 align="left">吴彦祖</h1>
+              <p align="left">吴彦祖，1974年9月30日出生于美国旧金山，祖籍上海在加州成长，中国香港男演员、模特。</p>
+              <p align="left"><a class="btn btn-lg btn-primary" href="#" role="button">Detail</a></p>
+             </div>
+           </div>
+          </div>
+        <div class="item">
+            <img data-holder-rendered="true" src="images/斯嘉丽final.jpg"  alt="Second slide [1140x500]">
+             <div class="container" align="right" >
+             <div class="carousel-caption" align="right">
+              <h1 align="right" style="color:#000">Scarlett Johansson</h1>
+              <p align="right" style="color:#000">Scarlett Johansson born in November 22, 1984,is an American actress, model, and singer. </p>
+              <p align="right"><a class="btn btn-lg btn-primary" href="#" role="button">Detail</a></p>
+             </div>
+           </div>
+          </div>
+          <div class="item">
+            <img data-holder-rendered="true" src="images/汤姆克鲁斯.jpg"alt="Third slide [1140x500]">
+             <div class="container" align="right" >
+             <div class="carousel-caption" align="right">
+              <h1 align="right">Tom Cruise</h1>
+              <p align="right">Tom Cruise born in july 3, 1962,is an American actor and filmmaker</p>
+              <p align="right"><a class="btn btn-lg btn-primary" href="#" role="button">Detail</a></p>
+             </div>
+           </div>
+          </div>
+          <div class="item">
+            <img data-holder-rendered="true" src="images/sophie marceau22.jpg" alt="First slide [1140x500]">
+            <div class="container" align="left" >
+             <div class="carousel-caption" align="left">
+              <h1 align="left">Sophie Marceau</h1>
+              <p align="left">Sophie Marceau born in 17 November 1966,is a French actress, director, screenwriter, and author. </p>
+              <p align="left"><a class="btn btn-lg btn-primary" href="#" role="button">Detail</a></p>
+             </div>
+           </div>
+          </div>
+          <div class="item active">
+            <img data-holder-rendered="true" src="images/林志玲22.jpg" alt="Third slide [1140x500]">
+             <div class="container" align="left" >
+             <div class="carousel-caption" align="left">
+              <h1 align="left">林志玲</h1>
+              <p align="left">林志玲，1974年11月29日出生于台湾省台北市，毕业于加拿大多伦多大学，中国台湾的女艺人、演员、模特、歌手、主持人。</p>
+              <p align="left"><a class="btn btn-lg btn-primary" href="#" role="button">Detail</a></p>
+             </div>
+           </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+		<!-- Banner Ends Here --->
+		<!-- Gallery Starts Here --->
+		<div class="look">
+		</div>
+      		<div class="coats">
+			<h3 class="c-head">The same paragraph</h3>
+			<small><a href="style.html">Show More</a></small>
+			<div class="coat-row">
+				<div class="coat-column">
+					<a href="style.html">
+						<img src="images/陈乔恩同款裙装2.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>陈乔恩同款裙</h4><small>￥129.50</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://www.meilishuo.com/share/item/3663386281?ad_tag=0_0_0_0-0&d_r=6__0-1-1-3">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column">
+					<a href="style.html"><img src="images/郭碧婷同款裙装.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>郭碧婷同款裙</h4><small>￥89.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://www.meilishuo.com/share/item/3627280197?ad_tag=0_0_0_0-0&d_r=6__0-1-5-5">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column">
+					<a href="style.html"><img src="images/高圆圆同款裙装搭配2.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>高圆圆同款裙</h4><small>￥128.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://www.meilishuo.com/share/item/3598189217?ad_tag=0_0_0_0-0&d_r=6__0-1-6-5">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column1">
+					<a href="style.html"><img src="images/宋慧乔同款.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>宋慧乔同款裙</h4><small>￥199.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://shop.mogujie.com/detail/16qg4k4?traceid=search_2bxzi5hpcnpc&ptp=1.BhVuTAyC._items.235.nlBj7l">View</a></div>
+				      </div>
+				</div>
+					<div class="clearfix"></div>
+			</div>
+		</div>
+            		<div class="coats">
+			<h3 class="c-head">Accessories</h3>
+			<small><a href="collacation.html">Show More</a></small>
+			<div class="coat-row">
+				<div class="coat-column">
+					<a href="collacation.html">
+						<img src="images/邓紫棋同款帽子.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>邓紫棋同款帽子</h4><small>￥64.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://www.meilishuo.com/share/item/3332158493?ad_tag=0_0_0_0-0&d_r=6__0-2-8-20">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column">
+					<a href="collacation.html"><img src="images/范冰冰同款帽子.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>范冰冰同款帽子</h4><small>￥32.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://www.meilishuo.com/share/item/3468142423?ad_tag=0_0_0_0-0&d_r=6__0-1-1-3">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column">
+					<a href="collacation.html"><img src="images/袁珊珊同款女鞋.jpg"class="img-responsive" alt="">
+						<div class="prod-desc"><h4>袁珊珊同款女鞋</h4><small>￥118.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://shop.mogujie.com/detail/17nxf44?traceid=search_2by0b0j96qdc&ptp=1.BhVuTAyC._items.15.Gd9Qu2">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column1">
+					<a href="collacation.html"><img src="images/唐嫣同款墨镜.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>唐嫣同款墨镜</h4><small>￥34.80</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://www.meilishuo.com/share/item/3412769047?ad_tag=1_10037_0_0-0&d_r=6__1-1-3-2">View</a></div>
+				      </div>
+				</div>
+					<div class="clearfix"></div>
+			</div>
+		</div>
+            		<div class="coats">
+			<h3 class="c-head">Film and TV</h3>
+			<small><a href="#">Show More</a></small>
+			<div class="coat-row">
+				<div class="coat-column">
+					<a href="single.html">
+						<img src="images/何以笙箫默之学生必备.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>何以笙箫默</h4><small>￥159.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://item.taobao.com/item.htm?id=44372280351&frm=etao&sku=%3B1627207%3A28320%3B20509%3A28314%3B&spm=1002.8.0.0.BBhPTt">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column">
+					<a href="single.html"><img src="images/虎爸猫妈 之白领.jpg" class="img-responsive" alt="">
+						<div class="prod-desc"><h4>虎爸猫妈</h4><small>￥199.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://item.taobao.com/item.htm?id=45223741451&ali_trackid=2:mm_15740358_6712241_29994625:1435132318_310_1357584477&spm=a231o.7705542.10006.6.rLxeQf">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column">
+					<a href="single.html"><img src="images/anglebaby1.jpg"class="img-responsive" alt="">
+						<div class="prod-desc"><h4>奔跑吧兄弟</h4><small>￥36.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.52.L1ro2m&id=44189243809&ns=1&abbucket=4#detail">View</a></div>
+				      </div>
+				</div>
+				<div class="coat-column1">
+					<a href="single.html"><img src="images/电影《咱们结婚吧》之刘涛同款 白领必备2.jpg"class="img-responsive" alt="">
+						<div class="prod-desc"><h4>咱们结婚吧</h4><small>￥126.00</small></div>
+					</a>
+					<div class="mask">
+		                       		<div class="info"><a href="http://item.taobao.com/item.htm?spm=a230r.1.14.260.HvRV7h&id=18095784337&ns=1&abbucket=4#detail">View</a></div>
+				      </div>
+				</div>
+					<div class="clearfix"></div>
+			</div>
+		</div>
+      
+      
+      
+		<div class="gallery">
+			<div class="gallery-row">
+				<div class="gallery-grid">
+					<a href="http://ent.163.com/photoview/00B50003/544605.html#p=AAFFK1PJ00B50003"><div class="grid-top img-pos"><img src="images/刘亦菲同款.jpg" alt="" class="img-responsive">
+						<div class="img-caption">
+                        
+						</div>
+					</div></a>
+					<a href="http://v.baidu.com/movie/120208.htm?video_uri=movie.basic.001830.1430907687.0"><div class="grid-bot img-pos"><img src="images/少年班1.jpg" alt="" class="img-responsive"><div class="img-caption"></div></div></a>
+				</div>
+                <div class="copyrights">Collect from  <a href="http://www.mycodes.net/" target="_blank">&#28304;&#30721;&#20043;&#23478;</a></div>
+				<div class="gallery-grid1">
+					<div class="grid1-row1">
+						<div class="g1-r2">
+							<div class="twit t-wit">
+								<span class="line"></span>
+								<i class="twit-icon"></i>
+								<span class="line"></span>
+								<p>Movie "dew" in Beijing held a premiere conference, director Xixi Gao starring Liu Yifei, RAIN, Wang Xuebing, Andy On attended</p>
+							</div>
+							<a href="http://shop.mogujie.com/detail/17nxf44?traceid=search_2by0b0j96qdc&ptp=1.BhVuTAyC._items.15.Gd9Qu2"><div class="twit img-pos"><img src="images/袁珊珊同款女鞋2.jpg" alt="" class="img-responsive"><div class="img-caption"></div></div></a>
+							<div class="clearfix"></div>
+						</div>
+						<div class="g1-r2">
+                        <a href="http://www.levi.com.cn/?utm_source=baidu&utm_term=%E6%A0%87%E9%A2%98&utm_medium=%E5%93%81%E7%89%8C%E4%B8%93%E5%8C%BA&utm_channel=%E5%93%81%E4%B8%93&utm_content=%E6%A0%87%E9%A2%98%E6%8F%8F%E8%BF%B0">
+							<div class="twit img-pos"><img src="images/p4.jpg" alt="" class="img-responsive">
+								<div class="img-caption jk-t">
+									<p>Jeans</p>
+																	</div>
+							</div>
+                            </a>
+							<div class="twit t-wit">
+								<span class="line"></span>
+								<i class="twit-icon"></i>
+								<span class="line"></span>
+								<p>雪纺衫在夏日除了穿着凉爽看着仙，竟然还能显瘦，无论是女神look，还是萝莉减龄，或者大牌气场，雪纺衫通通可以hold住。</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="grid1-row2">
+						<div class="twit t-hat">
+							<i class="aarow"></i>
+							<p>少年班</p>
+							<small>2015 6.19 正在上映</small>
+						</div>
+                        <a href="http://clothing.lady8844.com/school/2015-06-23/1435059183d1579079.html">
+						<div class="twit img-pos"><img src="images/高圆圆同款裙装.jpg" alt="" class="img-responsive">
+							<div class="img-caption jk-t">
+								</div>
+						</div></a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="gallery-grid">
+					<div class="grid-bot t-hat">
+						<i class="aarow"></i>
+						<p>elegant shoes</p>
+						<small>BRAIDED LEATHER</small>
+					</div>
+                    <a href="http://clothing.lady8844.com/school/2015-06-23/1435059183d1579079.html">
+					<div class="grid-top img-pos"><img src="images/王丽坤同款套装2.jpg" alt="" class="img-responsive respon">
+						<div class="img-caption">
+						</div>
+					</div></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- Gallery Ends Here --->
+		<div class="look">
+		</div>
+		<!-- Partners Starts Here --->
+		<div class="partner">
+				<ul id="flexiselDemo3">
+				   <li><img src="images/泰妍同款帽子2.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/刘涛同款墨镜2.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/杨幂同款包包.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/袁珊珊同款女鞋2.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/何以笙箫默同款包包.jpg"class="img-responsive" alt=""/></li>
+				</ul>
+               
+				<script type="text/javascript">
+					$(window).load(function() {
+						$("#flexiselDemo3").flexisel({
+							visibleItems: 5,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+					    	responsiveBreakpoints: { 
+					    		portrait: { 
+					    			changePoint:480,
+					    			visibleItems: 1
+					    		}, 
+					    		landscape: { 
+					    			changePoint:640,
+					    			visibleItems: 2
+					    		},
+					    		tablet: { 
+					    			changePoint:768,
+					    			visibleItems: 3
+					    		}
+					    	}
+					    });
+					    
+					});
+			 </script>
+
+             <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	         
+		</div>
+		<!-- Partners Ends Here --->
+        
+		<!-- Footer Menu Starts here --->
+		<div class="footer">
+			<div class="row footer-row">
+				<div class="col-md-3 footer-col">
+					<h3 class="ft-title">Collection</h3>
+					<ul class="ft-list">
+						<li><a href="#">Style(1725)</a></li>
+						<li><a href="#">Collacation (635)</a></li>
+						<li><a href="#">Recommendation (2514)</a></li>
+						<li><a href="#">Comming Soon (76)</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-col">
+					<h3 class="ft-title">site</h3>
+					<ul class="ft-list  list-h">
+						<li><a href="#">Terms of Service </a></li>
+						<li><a href="#">Privacy Policy </a></li>
+						<li><a href="#">Copyright Policy </a></li>
+						<li><a href="#">Press Kit</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-col">
+					<h3 class="ft-title">Shop</h3>
+					<ul class="ft-list list-h">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Shipping Metods</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 foot-cl">
+					<h3 class="ft-title">social</h3>
+					<p>Copyright@MIRMAID all rights reserved 2005-2015</p>
+					<ul class="social">
+						<li><i class="fa"></i></li>
+						<li><i class="tw"></i></li>
+						<li><i class="is"></i></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- Footer Menu Ends here --->
+	</div>
+</section>
+</div>
+	<!-- Header Part Starts Here -->
+   
+  
+
+<div data-original-title="复制到剪贴板" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" class="global-zeroclipboard-container" id="global-zeroclipboard-html-bridge">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" height="100%" width="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1427683274723">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=v3.bootcss.com%2C%2F%2Fv3.bootcss.com%2Chttp%3A%2F%2Fv3.bootcss.com">         <embed src="model_files/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=v3.bootcss.com%2C%2F%2Fv3.bootcss.com%2Chttp%3A%2F%2Fv3.bootcss.com" scale="exactfit" height="100%" width="100%">                </object></div><svg style="visibility: hidden; position: absolute; top: -100%; left: -100%;" preserveAspectRatio="none" viewBox="0 0 1140 500" height="500" width="1140"><defs></defs><text style="font-weight:bold;font-size:53pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle" y="53" x="0">Thirdslide</text></svg>
+</body>
+</html>

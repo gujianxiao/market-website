@@ -1,0 +1,312 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://v3.bootcss.com/favicon.ico">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="model_files/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="model_files/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="model_files/theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="model_files/ie-emulation-modes-warning.js"></script>
+<title>乌衣巷 推荐</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts -->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/sticky-navigation.css" />
+<link href="css/demo.css" rel="stylesheet" type="text/css" />
+<script>
+$(function() {
+
+	// grab the initial top offset of the navigation 
+	var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+	
+	// our function that decides weather the navigation bar should have "fixed" css position or not.
+	var sticky_navigation = function(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+		if (scroll_top > sticky_navigation_offset_top) { 
+			$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+		} else {
+			$('#sticky_navigation').css({ 'position': 'relative' }); 
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+	
+	// NOT required:
+	// for this demo disable all links that point to "#"
+	$('a[href="#"]').click(function(event){ 
+		event.preventDefault(); 
+	});
+	
+});
+</script>
+</head>
+<body>
+	<!-- Header Part Starts Here -->
+<div class="header">
+	<div class="container">
+	<div id="demo_top_wrapper">
+	<div id="sticky_navigation_wrapper">
+		<div id="sticky_navigation">
+			<div class="demo_container navigation-bar">
+				<div class="navigation">
+					<div class="logo"><a href="index.html">MIRMAID</a></div>
+					<span class="menu"></span>
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".navig" ).slideToggle( "slow", function() {
+						    // Animation complete.
+						  });
+						});
+					</script>
+					<div class="navig">
+						<ul>
+							<li><a href="style.html">Style</a></li>
+							<li><a href="collacation.html">Collacation</a></li>
+							<li><a href="recommendation.html">Recommendation</a></li>
+							<li><a href="#">News</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="navigation-right">
+					<ul class="user">
+						<li>
+							<span></span><a href="login.html">Log In</a>
+						</li>
+						<li>
+							<span class="bascket"></span><a href="bascket.html">Basket(0)</a>
+						</li>
+						<li>
+							<button class="search"></button>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<div class="serch">
+								<span>
+									<input type="text" placeholder="Search" required>
+									<input type="submit" value="" />
+								</span>
+				</div>
+				<script>
+					$( "button.search" ).click(function() {
+					  $( ".serch" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<div class="container">
+<section id="main">
+	<div class="content">
+		<div class="pag-nav">
+			<ul class="p-list">
+				<li><a href="index.html">Home</a></li> &nbsp;&nbsp;/&nbsp;
+				<li class="act">collaction</li>
+			</ul>
+		</div>
+        
+			<div class="gallery-row">
+            <div class="gallery-grid">
+					<div class="grid-top img-pos"><img src="images/recommendation/dabai.png"alt="" class="img-responsive">
+					</div>
+					<div class="grid-bot t-hat">
+						<p>STAR</p>
+						<small>BAZAAR</small>
+					</div>
+			</div>
+          <div class="gallery-grid">
+          			<div class="grid-bot t-hat">
+						<p>FASHION</p>
+                        <small>MORDEN GUY</small>
+					</div>
+					<div class="grid-top img-pos"><img src="images/recommendation/71ef30c2gw1ernv80vs8gj21ao1ao0wl.jpg"alt="" class="img-responsive"></div>
+		 </div>
+          <div class="gallery-grid">
+					<div class="grid-top img-pos"><img src="images/recommendation/71ef30c2gw1ernv81kvzuj21ao1ao42u.jpg"alt="" class="img-responsive">
+					</div>
+					<div class="grid-bot t-hat">
+						<p>STYLE COMING</p>
+					</div>
+			</div>
+            <div class="gallery-grid">
+          			<div class="grid-bot t-hat">
+						<p>TOUCH</p>
+                        <small>ZERO DISTANCE</small>
+					</div>
+					<div class="grid-top img-pos"><img src="images/recommendation/71ef30c2gw1ernv83w1nwj20sg0sgmyu.jpg"alt="" class="img-responsive"></div>
+		 </div>
+				<div class="clearfix"></div>
+			</div>
+		<!-- Gallery Ends Here --->
+        
+		<div class="look">
+		</div>
+            <div style=" width:950px; height:635px; float:left">
+            <div style="float:left; width:100px"><h1>复<br>古<br>情<br>怀</h1></div>
+                <div style="width:400px; height:635px; float:left"><img src="images/复古情怀/复古情怀1.png"class="img-responsive" alt="" ></div>              
+                <a href="http://ai.taobao.com/auction/edetail.htm?e=tbhZv58afAC6k0Or%2B%2BH4tA94XsEmiqODn1Y2qSkaZVCLltG5xFicObalFqTViQTOxN35oEuRTJekl0dvZi7AGcILZleNFuZrbxk%2FvW1FrBYMF3mxDVxJb23abJM7sDg28m9obDj%2Fcl7c2z7zLbSLYw%3D%3D&ptype=100011&rType=1&from=goldenlink&clk1=0792c7c7a42b054aaabc917e53968dc5&upsid=0792c7c7a42b054aaabc917e53968dc5"><div style="width:200px; height:300px; float:left"><img src="images/复古情怀/复古情怀上衣.jpg"class="img-responsive" alt="" ></div></a>
+                <div style="float:right; width:200px"><small>当我们谈论“复古”时我们在谈论些什么？这是一种形式主义的时尚，但不仅仅如此。若单是一种形式就不会像传染病一样传播如此之快，“复古”更多的是一种情怀，人皆有之的怀旧之情。这才能使“复古”成为一种风潮，过时的事物大行其道，人人又都趋之若鹜，一定是被某种情怀所吸引，谁还没有过曾经了？</small></div>
+                <a href="http://ai.taobao.com/auction/edetail.htm?e=RX%2Bxm0HAcIy6k0Or%2B%2BH4tPZT89ikDujWWPt1fh5JBxyLltG5xFicObalFqTViQTOxN35oEuRTJekl0dvZi7AGcILZleNFuZrbxk%2FvW1FrBYMF3mxDVxJb23abJM7sDg28m9obDj%2Fcl5ZVtFBwmuytw%3D%3D&ptype=100011&rType=1&from=goldenlink&clk1=2da1a8a3387aebb88dc3ec62a0035cb1&upsid=2da1a8a3387aebb88dc3ec62a0035cb1"><div style="width:400px; height:200px; float:left" ><img src="images/复古情怀/复古情怀裙子.jpg" class="img-responsive" alt="" ></div></a>
+                
+            </div>
+                    
+             <div style=" width:960px; height:685px; float:right">
+                        <div style="float:right; width:100px"><h1>高<br>逼<br>格<br>范</h1></div>
+                <div style="width:455px; height:685px; float:right"><img src="images/高逼格范儿/高逼格范儿1.png"class="img-responsive" alt="" ></div>              
+                <a href="http://www.hichao.com/goods/1054761"><div style="width:200px; height:280px; float:right"><img src="images/高逼格范儿/高逼格范.jpg"class="img-responsive" alt="" ></div></a>
+                <div style="float:left; width:300px"><small><br><br><br>有些时候，高逼格也是一种赞美，走别人不敢走的路，境界更高，格局更大。</small></div>
+                <a href="http://www.hichao.com/goods/1141699"><div style="width:400px; height:200px; float:right" ><img src="images/高逼格范儿/高逼格范儿.手包jpg.jpg" class="img-responsive" alt="" ></div></a>
+                
+            </div>  
+              
+            <div style=" width:950px; height:635px; float:left" >
+            <div style="float:left; width:100px"><h1>软<br>系<br>萌<br>妹</h1></div>
+                <div style="width:400px; height:600px; float:left"><img src="images/软系萌妹/软西萌妹1.png"class="img-responsive" alt="" ></div>              
+                <a href="http://ai.taobao.com/auction/edetail.htm?e=2MFRqEIZMmG6k0Or%2B%2BH4tP0eow%2F16UgW2MSLz%2BYBXtOLltG5xFicObalFqTViQTOxN35oEuRTJekl0dvZi7AGcILZleNFuZrbxk%2FvW1FrBYMF3mxDVxJb23abJM7sDg2F9bbVc%2Fsg6JQuy%2B9cMElhw%3D%3D&ptype=100011&rType=1&from=goldenlink&clk1=24202748599d4e70d5e00826b34c5868&upsid=24202748599d4e70d5e00826b34c58
+裙子：http://ai.taobao.com/auction/edetail.htm?e=OKp1g%2BxFC%2Fe6k0Or%2B%2BH4tPcS%2FR"><div style="width:200px; height:300px; float:left"><img src="images/软系萌妹/软西萌妹.上衣jpg.jpg"class="img-responsive" alt="" ></div></a>
+                <div style="float:right; width:200px"><small><br><br><br>软妹的起源能预测出的理由可能只有一个，但是发展的理由远远不止一个。软妹是一个暗语，她的形式非常简单，非常容易被人理解，只强调一个软字。而使无数男性心动的原因，也仅仅在此。</small></div>
+                <a href="http://ai.taobao.com/auction/edetail.htm?e=OKp1g%2BxFC%2Fe6k0Or%2B%2BH4tPcS%2FR%2FxZD8CHnLSp9l07xyLltG5xFicObalFqTViQTOxN35oEuRTJekl0dvZi7AGcILZleNFuZrbxk%2FvW1FrBYMF3mxDVxJb23abJM7sDg2tenP4IuUfJE%2FCGUfqc5D3g%3D%3D&ptype=100011&rType=1&from=goldenlink&clk1=df447d7bb411b26cf5f0b08d34c01152&upsid=df447d7bb411b26cf5f0b08d34c01152
+"><div style="width:400px; height:200px; float:left" ><img src="images/软系萌妹/软西萌妹.裙子jpg.jpg" class="img-responsive" alt="" ></div></a>
+                
+            </div>
+            
+            
+                  <div style=" width:960px; height:685px; float:right">
+                        <div style="float:right; width:100px"><h1>金<br>属<br>摇<br>滚</h1></div>
+                <div style="width:300px; height:500px; float:right"><img src="images/金属摇滚/金属摇滚.png"class="img-responsive" alt=""></div>              
+                <a href="www.hichao.com/goods/1139560"><div style="width:200px; height:280px; float:right"><img src="images/金属摇滚/wKgBfVWCjSiADFM6AAQ2hQkuZTs913.jpg" class="img-responsive" alt="" ></div></a>
+                <div style="float:left; width:200px"><small><br><br><br>急速前卫，极端朋克，鞭击金属，偶尔疯狂一下未尝不可~</small></div>
+                <a href="http://www.hichao.com/goods/1139560
+"><div style="width:400px; height:200px; float:right" ><img src="images/金属摇滚/wKgBjFV1SwuAFqaNAAKSy1fuiL0211[1].jpg" class="img-responsive" alt="" ></div></a>
+                
+            </div>  
+            
+					<div class="clearfix"></div>
+
+		<div class="look">
+		</div>
+		<!-- Partners Starts Here --->
+		<div class="partner">
+				<ul id="flexiselDemo3">
+				   <li><img src="images/泰妍同款帽子2.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/刘涛同款墨镜2.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/杨幂同款包包.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/袁珊珊同款女鞋2.jpg" class="img-responsive" alt=""/></li>
+				   <li><img src="images/何以笙箫默同款包包.jpg"class="img-responsive" alt=""/></li>
+				</ul>
+				<script type="text/javascript">
+					$(window).load(function() {
+						$("#flexiselDemo3").flexisel({
+							visibleItems: 5,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+					    	responsiveBreakpoints: { 
+					    		portrait: { 
+					    			changePoint:480,
+					    			visibleItems: 1
+					    		}, 
+					    		landscape: { 
+					    			changePoint:640,
+					    			visibleItems: 2
+					    		},
+					    		tablet: { 
+					    			changePoint:768,
+					    			visibleItems: 3
+					    		}
+					    	}
+					    });
+					    
+					});
+			 </script>
+	         <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+		<!-- Partners Ends Here --->
+		<!-- Footer Menu Starts here --->
+		<div class="footer">
+			<div class="row footer-row">
+				<div class="col-md-3 footer-col">
+					<h3 class="ft-title">Collection</h3>
+					<ul class="ft-list">
+						<li><a href="#">Woman (1725)</a></li>
+						<li><a href="#">Men (635)</a></li>
+						<li><a href="#">Kids (2514</a></li>
+						<li><a href="#">Comming Soon (76)</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-col">
+					<h3 class="ft-title">site</h3>
+					<ul class="ft-list  list-h">
+						<li><a href="#">Terms of Service </a></li>
+						<li><a href="#">Privacy Policy </a></li>
+						<li><a href="#">Copyright Policy </a></li>
+						<li><a href="#">Press Kit</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-col">
+					<h3 class="ft-title">Shop</h3>
+					<ul class="ft-list list-h">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Shipping Metods</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 foot-cl">
+					<h3 class="ft-title">social</h3>
+					<p>Copyright@MIRMAID all rights reserved 2005-2015</p>
+					<ul class="social">
+						<li><i class="fa"></i></li>
+						<li><i class="tw"></i></li>
+						<li><i class="is"></i></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- Footer Menu Ends here --->
+	</div>
+</section>
+</body>
+</html>
